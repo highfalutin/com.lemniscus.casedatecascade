@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="com.lemniscus.casedatecascade" type="module">
+  <file>casedatecascade</file>
+  <name>CiviCase Cascading Dates</name>
+  <description>This extension affects activities within CiviCase timelines. When an activity's date is modified, any uncompleted activities which refer to it will be automatically updated.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Noah Miller</author>
+    <email>nm@lemnisc.us</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/highfalutin/com.lemniscus.casedatecascade</url>
+    <url desc="Documentation">https://github.com/highfalutin/com.lemniscus.casedatecascade</url>
+    <url desc="Support">https://civicrm.stackexchange.com</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2017-10-12</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Casedatecascade</namespace>
+  </civix>
+</extension>
